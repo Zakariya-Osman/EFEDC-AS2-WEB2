@@ -2,7 +2,7 @@
 import React from "react";
 import { useStudents } from "../context/StudentProvider";
 
-const StudentInformation = () => {
+const StudentList = () => {
   const { students } = useStudents();
 
   return (
@@ -26,4 +26,4 @@ const StudentInformation = () => {
   );
 };
 
-export default StudentInformation;
+export default StudentList;

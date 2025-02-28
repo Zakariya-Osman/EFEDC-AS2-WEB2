@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import StudentForm from "../components/StudentForm";
-import StudentInformation from "../components/StudentInformation";
+import StudentList from "../components/StudentList";
 import Footer from "../components/Footer";
 import { StudentProvider } from "@/context/StudentProvider";
 
@@ -10,7 +10,7 @@ export default function Home() {
       <StudentProvider>
         <Navbar />
         <StudentForm />
-        <StudentInformation />
+        <StudentList />
         <Footer />
       </StudentProvider>
     </div>
