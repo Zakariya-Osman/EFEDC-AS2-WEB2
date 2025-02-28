@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useStudents } from "../context/StudentProvider";
 
 const StudentForm = () => {
-  const { addStudent } = useStudents(); // ✅ Get function from context
+  const { addStudent } = useStudents();
   const [newStudent, setNewStudent] = useState({
     firstName: "",
     lastName: "",
