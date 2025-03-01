@@ -5,12 +5,10 @@ import React from 'react'; //client side react component
  * StudentForm Component
  * Author: Jakob Howard
  * Date: 3/1/2025
-
-
-Footer page
-contains information regarding the school such as name and contact information, as well as resources for parents to use.
-Information is seperated into 3 different column with different titles for organization and readability, text is white on a black background to ensure the
-footer is accessable and readable for everyone.
+ * Description: This react componet displays infomation about the school in a footer massage at the bottom of the page. It does not take in any inputs and instead it is manually given by the programmer.
+ * Inputs: This componet does not take any inputs.
+ * Processing: This componet does not require and processing.
+ * Output: This componet always displays the information it is manually given by the programmer.
 **/
 
 function Footer() {
