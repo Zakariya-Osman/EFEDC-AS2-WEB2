@@ -5,10 +5,10 @@ import React from 'react'; //client side react component
  * StudentForm Component
  * Author: Jakob Howard
  * Date: 3/1/2025
- * Description: This react componet displays infomation about the school in a footer massage at the bottom of the page. It does not take in any inputs and instead it is manually given by the programmer.
+ * Description: This react componet displays infomation about the school in a footer message at the bottom of the page. It does not take in any inputs and instead it is manually given infomation by the programmer.
  * Inputs: This componet does not take any inputs.
- * Processing: This componet does not require and processing.
- * Output: This componet always displays the information it is manually given by the programmer.
+ * Processing: This componet does not require any processing.
+ * Output: This componet always displays the information it is manually given by the programmer in the footer.
 **/
 
 function Footer() {
