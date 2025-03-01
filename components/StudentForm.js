@@ -27,7 +27,7 @@ const StudentForm = () => {
   };
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-4xl mx-auto pt-20">
       <h1 className="text-2xl font-bold text-center mb-4">Add New Student</h1>
       <form className="bg-white shadow-lg rounded-xl p-6 border border-gray-200 hover:shadow-xl transition" onSubmit={handleSubmit}>
         <div className="grid gap-4">
