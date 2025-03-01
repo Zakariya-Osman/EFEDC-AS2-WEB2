@@ -31,7 +31,7 @@ function Footer() {
         <div> {/* div for third column, contains resouces for parents*/}
           <h3 className="font-semibold text-lg">Support For Parents</h3>
           <a href="https://d2l.cbe.ab.ca/d2l/loginh/" className="text-white underline">Brightspace</a>
-          <a href="https://workspace.google.com/lp/business/" className="text-white underline">Google Workspace</p>
+          <a href="https://workspace.google.com/lp/business/" className="text-white underline">Google Workspace</a>
         </div>
       </div>
     </footer>
