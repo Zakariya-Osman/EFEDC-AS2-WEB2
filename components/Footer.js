@@ -1,4 +1,5 @@
 // jakob howard - footer
+// all links lead to random websites, because I felt I should make them do something
 import React from 'react'; //client side react component
 
 /** 
@@ -23,14 +24,14 @@ function Footer() {
 
         <div> {/* div for second column, contains volunter and school concil info*/}
           <h3 className="font-semibold text-lg">Parents & Students</h3>
-          <a>School Council</a>
-          <a>Volunteer</a>
+          <a href="https://www.sait.ca" className="text-white underline">School Council</a>
+          <a href="https://www.sait.ca" className="text-white underline">Volunteer</a>
         </div>
 
         <div> {/* div for third column, contains resouces for parents*/}
           <h3 className="font-semibold text-lg">Support For Parents</h3>
           <a href="https://d2l.cbe.ab.ca/d2l/loginh/" className="text-white underline">Brightspace</a>
-          <a>Google Workspace</a>
+          <a href="https://workspace.google.com/lp/business/" className="text-white underline">Google Workspace</p>
         </div>
       </div>
     </footer>
